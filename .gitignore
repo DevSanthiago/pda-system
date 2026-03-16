@@ -1,0 +1,19 @@
+# .gitignore
+
+# Frontend
+pda-system-web/node_modules/
+pda-system-web/dist/
+pda-system-web/.env
+pda-system-web/.env.local
+
+# Backend (API)
+**/bin/
+**/obj/
+**/appsettings.json
+**/appsettings.Development.json
+*.user
+*.suo
+.vs/
+
+# Outros
+.DS_Store
